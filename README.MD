@@ -29,7 +29,7 @@ Basicamente esse é o objetivo da aplicação, conseguir comprar produtos por me
 lugares do mundo.
 
 
-##  🛠  Tecnologias
+## 🛠 Tecnologias
 
 - [x] SpringMVC
 - [x] Spring Data
@@ -42,6 +42,8 @@ lugares do mundo.
 - [x] Cadastro de Produto
 - [x] Criação do formulário
 - [x] Validação de Erros no formulário
+- [x] Configuração de rotas
+- [x] Formatação de números e datas
 - [ ] Camada de segurança da aplicação
 
 
