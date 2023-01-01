@@ -44,7 +44,9 @@ lugares do mundo.
 - [x] Validação de Erros no formulário
 - [x] Configuração de rotas
 - [x] Formatação de números e datas
-- [ ] Camada de segurança da aplicação
+- [x] Camada de segurança da aplicação
+- [x] Paginação e Cache
+- [ ] Desenvolvimento inicial de uma API REST
 
 
 
