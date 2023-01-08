@@ -46,7 +46,9 @@ lugares do mundo.
 - [x] Formatação de números e datas
 - [x] Camada de segurança da aplicação
 - [x] Paginação e Cache
-- [ ] Desenvolvimento inicial de uma API REST
+- [x] Desenvolvimento inicial de uma API REST
+- [x] Implementação de parte do Front-End com Vue.js
+- [x] Validações com Vue.js
 
 
 

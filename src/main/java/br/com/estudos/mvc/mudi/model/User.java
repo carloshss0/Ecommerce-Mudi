@@ -12,7 +12,7 @@ public class User {
     private String password;
     private Boolean enable;
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "user", fetch = FetchType.LAZY)
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "user", fetch = FetchType.EAGER)
     private List<Pedido> pedidos;
 
     public String getUsername() {
