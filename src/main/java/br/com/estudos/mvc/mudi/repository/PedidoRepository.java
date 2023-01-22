@@ -1,5 +1,6 @@
 package br.com.estudos.mvc.mudi.repository;
 
+import br.com.estudos.mvc.mudi.model.Oferta;
 import br.com.estudos.mvc.mudi.model.Pedido;
 import br.com.estudos.mvc.mudi.model.StatusPedido;
 import org.springframework.cache.annotation.Cacheable;
@@ -26,5 +27,9 @@ public interface PedidoRepository extends JpaRepository<Pedido, Long> {
 
     @Query("select p from Pedido p join p.user u where u.username != :username and p.status = :status")
     List<Pedido> findByStatusAndNotUsuario(StatusPedido status, Pageable sort, @Param("username") String username);
+
+
+
+
 
 }

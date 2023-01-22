@@ -1,6 +1,7 @@
 package br.com.estudos.mvc.mudi.dto;
 
 import br.com.estudos.mvc.mudi.model.Oferta;
+import org.springframework.security.core.context.SecurityContextHolder;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
@@ -21,6 +22,7 @@ public class RequisicaoNovaOferta {
     @NotNull
     private String dataDaEntrega;
     private String comentario;
+
 
     public Long getPedidoId() {
         return pedidoId;
@@ -54,12 +56,15 @@ public class RequisicaoNovaOferta {
         this.comentario = comentario;
     }
 
+
+
     public Oferta toOferta() {
 
         Oferta oferta = new Oferta();
         oferta.setComentario(this.comentario);
         oferta.setDataDaEntrega(LocalDate.parse(this.dataDaEntrega, formatter));
         oferta.setValor(new BigDecimal(this.valor));
+
 
         return oferta;
     }

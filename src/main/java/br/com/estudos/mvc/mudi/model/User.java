@@ -38,4 +38,14 @@ public class User {
     public void setEnable(Boolean enable) {
         this.enable = enable;
     }
+
+    public List<Pedido> getPedidos() {
+        return pedidos;
+    }
+
+    public void setPedidos(List<Pedido> pedidos) {
+        this.pedidos = pedidos;
+    }
+
+
 }

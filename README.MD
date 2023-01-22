@@ -35,6 +35,7 @@ lugares do mundo.
 - [x] Spring Data
 - [x] Thymeleaf
 - [x] Bootstrap
+- [x] Vue.js
 
 
 ## Features
@@ -49,6 +50,8 @@ lugares do mundo.
 - [x] Desenvolvimento inicial de uma API REST
 - [x] Implementação de parte do Front-End com Vue.js
 - [x] Validações com Vue.js
+- [x] Permitir enviar oferta apenas para pedidos de outros usuários
+- [x] Visualização de ofertas recebidas para os pedidos dos usuários, consumindo uma API Rest e mostrando na camada View da aplicação.
 
 
 
